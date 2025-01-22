@@ -45,9 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add an event listener to the modal to close it when the user clicks outside
     window.addEventListener("click", function (event) {
       // Check if the user clicked on the modal itself (not on a child element)
-
       if (event.target == modal) {
+        // Hide the modal by setting its display property to 'none'
         modal.style.display = "none";
+        // Reset the src attribute of the video player to an empty string
+        // This will stop the video from playing
         videoPlayer.src = "";
       }
     });
