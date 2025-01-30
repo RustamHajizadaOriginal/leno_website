@@ -56,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 // Navigation Background on scroll
+// Add an event listener to the window to change the navbar's background color on scroll
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".navbar");
 
