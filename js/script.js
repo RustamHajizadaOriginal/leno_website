@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Add an event listener to the window to change the navbar's background color on scroll
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".navbar");
-
+  // Check if the user has scrolled down the page (i.e., the scrollY position is greater than 0)
   if (window.scrollY > 0) {
     navbar.classList.add("navbar--scroll");
   } else {
