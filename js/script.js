@@ -65,6 +65,8 @@ window.addEventListener("scroll", function () {
     // This will change the navbar's background color
     navbar.classList.add("navbar--scroll");
   } else {
+    // Remove the 'navbar--scroll' class from the navbar element
+    // This will reset the navbar's background color
     navbar.classList.remove("navbar--scroll");
   }
 });
