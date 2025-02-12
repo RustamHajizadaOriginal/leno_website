@@ -516,6 +516,11 @@ img {
   gap: 1.5rem;
   justify-content: center;
 }
+.inner-header {
+  background: #000 url(../images/header-background.jpg) center center/cover
+    no-repeat;
+  padding: 10rem 2rem 6rem;
+}
 /* Media Queries */
 @media (max-width: 12000px) {
 }
