@@ -135,11 +135,12 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 .hero__content {
   max-width: 500px;
 }
+
 .hero__title {
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -156,6 +157,7 @@ img {
 }
 .hero__image img {
   max-width: 500px;
+  padding-left: 5rem;
 }
 .hero__buttons {
   display: flex;
@@ -178,7 +180,7 @@ img {
 }
 .testimonials__container {
   display: grid;
-  grid-template-columns: repeat(3, 1ft);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   align-items: center;
   justify-content: center;
@@ -189,7 +191,7 @@ img {
 .testimonials__image img {
   width: 96px;
   height: 96px;
-  border-radius: 50%;
+  border-radius: 35%;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1.5rem;
@@ -380,7 +382,7 @@ img {
 .details__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  gap: 4rem;
   align-items: center;
   justify-content: center;
 }
@@ -394,7 +396,7 @@ img {
   margin-bottom: 2rem;
   line-height: 1.2;
 }
-.details__grid-description {
+.details__grid p {
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -506,14 +508,14 @@ img {
   align-items: center;
   gap: 6rem;
 }
-.footer_title {
+.footer__title {
   font-size: 1.2rem;
   color: #fff;
   margin-bottom: 0.5rem;
 }
-.footer_social {
+.footer__social {
   display: flex;
-  gap: 1.5rem;
+  gap: 2.5rem;
   justify-content: center;
 }
 .inner-header {
@@ -570,6 +572,34 @@ img {
   padding: 3rem 2rem;
   color: #9f9caf;
   text-align: center;
+}
+/* Details Features */
+.details-features {
+  background: var(--tertiary-color);
+  padding: 4rem 2rem;
+}
+.details-features__title {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.details-features__list-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 3.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+.details-features__list-item i {
+  color: var(--primary-color);
+}
+.details-features__list-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 /* Media Queries */
 @media (max-width: 12000px) {
@@ -701,6 +731,11 @@ img {
   }
   .pricing__card {
     margin-bottom: 4.5rem;
+  }
+  /* Details Features */
+  .details-features__list-item {
+    flex-direction: column;
+    text-align: center;
   }
 }
 @media (max-width: 586px) {
