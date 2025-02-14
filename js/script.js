@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function
         modal.style.display = 'block';
         
         // Replace the src attribute with the video URL
-        videoPlayer.src = 'https://www.youtube.com/embed/6wJ52H0aq9Q';
+        videoPlayer.src = 'https://www.youtube.com/watch?v=tJrr3FAtf1U'; 
         
         // Close modal on close button click
         closeButton.addEventListener('click', function () {
