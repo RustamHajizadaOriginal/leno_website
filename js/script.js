@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     videoPlayer.src = "https://www.youtube.com/embed/tJrr3FAtf1U";
 
     // Close modal on close button click
+    // Add an event listener to the close button to close the modal
     closeButton.addEventListener("click", function () {
       modal.style.display = "none";
       videoPlayer.src = "";
