@@ -34,7 +34,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Close modal on close button click
     // Add an event listener to the close button to close the modal
     closeButton.addEventListener("click", function () {
+      // Hide the modal by setting its display property to 'none'
       modal.style.display = "none";
+      // Reset the src attribute of the video player to an empty string
+      // This will stop the video from playing
       videoPlayer.src = "";
     });
 
