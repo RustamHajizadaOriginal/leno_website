@@ -25,9 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Add an event listener to the video button to open the modal
   videoButton.addEventListener("click", function () {
     // show modal
+    // Show the modal by setting its display property to 'block'
     modal.style.display = "block";
-
-    // Replace the src attribute with the video URL
+    // Set the src attribute of the video player to the YouTube video URL
+    // This will load the video into the player
     videoPlayer.src = "https://www.youtube.com/embed/tJrr3FAtf1U";
 
     // Close modal on close button click
