@@ -20,7 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const closeButton = document.querySelector(".modal__close-button");
   // Select the video player element inside the modal
   const videoPlayer = document.getElementById("videoPlayer");
+
   // Open Modal when clicked
+  // Add an event listener to the video button to open the modal
   videoButton.addEventListener("click", function () {
     // show modal
     modal.style.display = "block";
