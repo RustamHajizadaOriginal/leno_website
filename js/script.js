@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const videoButton = document.querySelector(".preview__video-button");
   // Select the close button that closes the modal
   const closeButton = document.querySelector(".modal__close-button");
+  // Select the video player element inside the modal
   const videoPlayer = document.getElementById("videoPlayer");
   // Open Modal when clicked
   videoButton.addEventListener("click", function () {
