@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     mobileMenu.classList.toggle("active");
   });
   // Video Modal part
+  // Select the video modal container
   const modal = document.getElementById("videoModal");
   const videoButton = document.querySelector(".preview__video-button");
   const closeButton = document.querySelector(".modal__close-button");
