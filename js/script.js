@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Video Modal part
   // Select the video modal container
   const modal = document.getElementById("videoModal");
+  // Select the video button that opens the modal
   const videoButton = document.querySelector(".preview__video-button");
   const closeButton = document.querySelector(".modal__close-button");
   const videoPlayer = document.getElementById("videoPlayer");
