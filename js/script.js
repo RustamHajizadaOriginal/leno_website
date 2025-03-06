@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const mobileMenu = document.querySelector(".navbar__mobile-menu-items");
   // Add an event listener to the toggle button to toggle the mobile menu
   toggleButton.addEventListener("click", function () {
+    // Toggle the 'active' class on the mobile menu items container
+    // This will show or hide the mobile menu items
     mobileMenu.classList.toggle("active");
   });
   // Video Modal part
