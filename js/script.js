@@ -1,7 +1,9 @@
 // Wait for the DOM to finish loading before executing the code inside this function
 document.addEventListener("DOMContentLoaded", function () {
   // Mobile Menu
+  // Select the mobile menu toggle button
   const toggleButton = document.querySelector(".navbar__mobile-menu-toggle");
+  // Select the mobile menu items container
   const mobileMenu = document.querySelector(".navbar__mobile-menu-items");
 
   toggleButton.addEventListener("click", function () {
