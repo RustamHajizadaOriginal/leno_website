@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.querySelector(".navbar__mobile-menu-toggle");
   // Select the mobile menu items container
   const mobileMenu = document.querySelector(".navbar__mobile-menu-items");
-
+  // Add an event listener to the toggle button to toggle the mobile menu
   toggleButton.addEventListener("click", function () {
     mobileMenu.classList.toggle("active");
   });
